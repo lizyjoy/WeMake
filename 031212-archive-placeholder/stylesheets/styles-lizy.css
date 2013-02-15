@@ -1,0 +1,58 @@
+/* #general
+================================================== */
+
+::selection {
+	background: #ffe7dd; /* Safari */
+	}
+::-moz-selection {
+	background: #ffe7dd; /* Firefox */
+}
+
+
+/* #homepage
+================================================== */
+
+
+/* Header ----------------------------------------------------------------- */
+
+.header-wrap{background-color: #FF4E00; padding: 40px 0px 120px 0px; }
+.logo{position: absolute; top:-75px; left:-30px;}
+.header{}
+
+.header p{color: white; font-size:16px;
+}
+
+.header a:hover{color: #891A45;}
+a:hover{
+	color:#CC3333 ;paddingadding: 5px 5px 4px 5px;
+}
+
+a.button{background-color:#FF4E00; padding: 5px 5px 4px 5px; text-decoration: none; 
+	
+}
+
+/* banner ----------------------------------------------------------------- */
+.banner-wrap{background-image:url(../images/jolby.png); background-repeat: repeat-x; height: 475px; background-color: #fff; }
+
+
+/* main ----------------------------------------------------------------- */
+
+.main{margin-bottom: 75px; }
+
+
+
+/* footer ----------------------------------------------------------------- */
+.footer{padding: 10px 0px 20px 0px; border-top:double 4px; }
+
+    @media only screen and (max-width: 767px) {
+
+
+        .logo{position: relative; left:-10px; top: 33px;
+width: 300px;}
+        .header-wrap{padding: 0px 0px 0px 0px;}
+        .header .alpha{position: relative; top: 20px;}
+
+}
+
+.soon{color: #A31B1E; font-style: italic;
+}
